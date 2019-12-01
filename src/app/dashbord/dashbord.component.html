@@ -1,0 +1,11 @@
+<mat-toolbar class="navigation-toolbar"  color="primary">
+    <mat-toolbar-row>
+            <span>Mini-Dashboard</span>
+            <span class="navigation-spacer"></span>
+            <mat-nav-list class="navigation-list" fxLayout="row" fxShow="false" fxShow.gt-xs="true">
+                <a mat-list-item routerLink="/dashboard/books" routerLinkActive="active">Books</a>
+                <a mat-list-item routerLink="/dashboard/custom-div" routerLinkActive="active">Custom-Text</a>
+            </mat-nav-list>  
+    </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet></router-outlet> 

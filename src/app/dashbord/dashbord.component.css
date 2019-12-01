@@ -1,0 +1,10 @@
+.active{
+    background: #303F9F;
+  }
+
+  .navigation-spacer {
+    flex: 1 1 auto;
+  }
+  .mat-list-item{
+    color: white;
+  }

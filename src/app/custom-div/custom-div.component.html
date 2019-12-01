@@ -1,0 +1,25 @@
+
+<div class="container">
+    
+    <div id="landing-div" fxLayout="column" fxLayoutAlign="space-around center"> 
+        <div *ngFor="let event of events">
+                
+                   <button mat-raised-button color="primary"(click)="loadCustomTxt(event)">Toggle Text</button>
+                
+                <div class="row">
+                        <textarea matInput cdkTextareaAutosize
+                            #autosize="cdkTextareaAutosize"
+                            cdkAutosizeMinRows="15"
+                            cdkAutosizeMaxRows="10"
+                            cols="50"
+                            >{{event.status}} 
+                        </textarea> 
+                </div>
+            
+        </div>
+   
+</div>
+
+
+
+
