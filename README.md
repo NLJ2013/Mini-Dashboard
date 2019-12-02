@@ -1,6 +1,10 @@
 # MiniDashboard
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.18.
+A simple Dashboard with a landing page and a dashboard with a navigation bar. there are two routes and they are
+1. a data table displaying  the data of a local JSON file , used angular data tables from angular material
+2. a div that changes the default text to a customized text on button click. to acheive this fuctionality, used angular directives
+
+when navigate to dashboard by `http://localhost:4200/dashboard` it will redirect the clild route `http://localhost:4200/dashboard/books` which displays the data table and the relavant tab will be highlighted in the navbar.
 
 ## Development server
 
