@@ -1,3 +1,6 @@
+/**
+ * 20191201 init
+ */
 import { Component, OnInit } from '@angular/core';
 
 @Component({

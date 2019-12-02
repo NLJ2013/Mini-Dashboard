@@ -3,9 +3,9 @@
     
     <div id="landing-div" fxLayout="column" fxLayoutAlign="space-around center"> 
         <div *ngFor="let event of events">
-                
+                 <div align ="center"> 
                    <button mat-raised-button color="primary"(click)="loadCustomTxt(event)">Toggle Text</button>
-                
+                 </div>
                 <div class="row">
                         <textarea matInput cdkTextareaAutosize
                             #autosize="cdkTextareaAutosize"

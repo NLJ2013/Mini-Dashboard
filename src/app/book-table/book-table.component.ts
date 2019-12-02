@@ -1,3 +1,6 @@
+/**
+ * 20191201  Init and added code to extract data from the JSON
+ */
 import { Component, OnInit,ViewChild} from '@angular/core';
 import {Http} from '@angular/http';
 import { map } from 'rxjs/operators';
@@ -35,5 +38,7 @@ export class BookTableComponent implements OnInit {
   ngOnInit() {
     this.dataSource.sort = this.sort;
   }
-  
+  public doFilter = (value: string) => {
+    this.dataSource.filter = value.trim().toLocaleLowerCase();
+  }
 }

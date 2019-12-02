@@ -1,3 +1,6 @@
+/**
+ * 20191201 init and added routes
+ */
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { DashbordComponent } from '../app/dashbord/dashbord.component'; 
@@ -20,7 +23,7 @@ const routes: Routes = [
           },
           {
             path : 'custom-div',
-            component : CustomDivComponent
+            component : CustomDivComponent// child component of dashboard
           }
         ]  
     },

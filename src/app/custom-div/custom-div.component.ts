@@ -1,3 +1,6 @@
+/**
+ * 20191201 init and added code to load custom text to a text area on button click
+ */
 import { Component, OnInit } from '@angular/core';
 
 @Component({
